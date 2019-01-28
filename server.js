@@ -36,7 +36,7 @@ app.get('/contactlist', function (req,res){
 	var contactlist = [person1, person2, person3];
 	res.json(contactlist);*/
 });
-
+console.log("ok")
 app.post('/addtlist', function (req,res){
 	console.log(req.body);
 	// You'll create your note here.
